@@ -1,10 +1,13 @@
 /**
  * @name system24 (catppuccin latte)
  * @description a tui-like discord theme. based on catppuccin latte theme (https://catppuccin.com).
- * @author fred9302
+ * @author refact0r
  * @version 2.0.0
- * @website https://github.com/fred9302/system24-with-latte
- * @source https://github.com/fred9302/system24-with-latte/blob/main/theme/flavors/system24-catppuccin-latte.theme.css
+ * @invite nz87hXyvcy
+ * @website https://github.com/refact0r/system24
+ * @source https://github.com/refact0r/system24/blob/master/theme/system24-catppuccin-latte.theme.css
+ * @authorId 508863359777505290
+ * @authorLink https://www.refact0r.dev
 */
 
 /* import theme modules */
@@ -15,6 +18,7 @@ body {
     --font: 'DM Mono'; /* change to '' for default discord font */
     --code-font: 'DM Mono'; /* change to '' for default discord font */
     font-weight: 300 /* normal text font weight. DOES NOT AFFECT BOLD TEXT */;
+    letter-spacing: -0.05ch; /* decreases letter spacing for better readability. recommended on monospace fonts.*/
 
     /* sizes */
     --gap: 12px; /* spacing between panels */
